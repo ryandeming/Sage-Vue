@@ -1,0 +1,24 @@
+{
+  "entry": {
+    "main": [
+      "./scripts/main.js",
+      "./styles/main.scss"
+    ],
+    "customizer": [
+      "./scripts/customizer.js"
+    ],
+    "turbolinks": [
+      "./scripts/turbolinks.js"
+    ]
+  },
+  "publicPath": "/app/themes/aeikon",
+  "devUrl": "http://aeikon.test",
+  "proxyUrl": "http://localhost:3000",
+  "cacheBusting": "[name]_[hash:8]",
+  "watch": [
+    "app/**/*.php",
+    "config/**/*.php",
+    "resources/views/**/*.php",
+    "resources/scripts/vue/**/*.vue"
+  ]
+}

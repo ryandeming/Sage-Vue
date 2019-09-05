@@ -1,0 +1,58 @@
+@keyframes preloader {
+  0% {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 1;
+  }
+
+  50% {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 1;
+  }
+
+  99% {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+  }
+
+  100% {
+    display: none;
+  }
+}
+
+.preloading {
+  animation: preloader;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hero {
+  padding: 80px 0;
+  color: #fff;
+}
+
+.portfolio {
+  margin: 60px 0;
+}
